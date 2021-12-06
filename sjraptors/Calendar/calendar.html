@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type = "text/css" href="dropdown menu.css">
+  </head>
+  
+  <body>
+    <div>
+        <img src="images/raptors_logo.svg" style="vertical-align: middle;" width="100px"/>
+        <span style="vertical-align: middle; color: white; font-size:xx-large; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-left: 5px;">SAN JOSE RAPTORS BASEBALL CLUB</span>
+    </div>
+
+      <div class="topnav">
+      
+        <a href="../SJRaptorsHome.html">HOME</a>
+        <a href="../Sports Website Ticket Page/index.html">BUY TICKETS</a>
+        <a class="active" href="#schedule">SCHEDULE</a>
+        <div class="dropdown">
+          <button class="dropbtn">TEAM AND STATS
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../team and stats/RosterView.html">Roster</a>
+            <a href="../team and stats/StatsTable.html">Stats</a>
+            <a href="../team and stats/Standings.html">League Standings</a>
+          </div>
+        </div> 
+        <a href="../Sports Website Stadium Page/index.html">STADIUM</a>
+        <a href="../SJRaptorsContact.html">CONTACT</a>
+      </div>
+
+      <div class = "box">
+        <div class="container">
+          <div class="calendar calendar-header">
+            <div class="month">
+              <p class="prev"><</p>
+              <div class="date">
+                <h1></h1>
+                <p></p>
+              </div>
+              <p class="next">></p>
+            </div>
+            <div class="weekdays">
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+            </div>
+            <div class="days"></div>
+          </div>
+          <fieldset class="legend">
+            <legend>Key</legend>
+            <ul class="legend">
+              <li><span class="home"></span>Home</li>
+              <li><span class="away"></span>Away</li>
+            </ul>
+          </fieldset>
+        </div>
+      </div>
+
+      
+
+    <script src="script.js"></script>
+  </body>
+</html>
